@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title></title>
+		<style>
+			#errorMsg{
+				color:red;
+			}
+			.inputContainer{
+				width:50%;margin:auto;border:1px solid black;padding:30px;text-align:center;
+			}
+			table {
+    border-collapse: collapse;
+    width: 50%;
+	margin:auto;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+		</style>
+	</head>
+	
+	<body >
+		<div class="inputContainer">
+			<h3>Task 1</h3>
+			 Name : <input type="text" id="userName"/> <br />
+			<span id="errorMsg"></span> 
+			<br />
+			Message: <input type="text" id="message" /> <br /> 
+			<button id="Save">Send</button>
+		</div>
+		<table>
+			<tr><th>Name</th><th>Message</th></tr>
+		
+		</table>
+
+	<script src="lab2.js"></script>
+	</body>
+</html>
